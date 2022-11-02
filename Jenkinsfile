@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git 'git@github.com:shazib96/test.git'
+                git 'https://github.com/shazib96/test.git'
             }
         }
         stage('Deploy on prod server over ssh'){
